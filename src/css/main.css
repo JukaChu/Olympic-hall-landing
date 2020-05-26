@@ -243,7 +243,6 @@
 }
 
 .single-advantage {
-    cursor: pointer;
     z-index: 3;
     width: 270px;
     height: 288px;
@@ -475,9 +474,6 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
-}
-
-.package-type-development__title p {
     margin: 0;
     font-family: var(--main-font);
     font-style: normal;
@@ -486,6 +482,7 @@
     line-height: 158%;
     color: var(--grey-paragraph);
 }
+
 
 .single-price-package__list {
     width: 240px;
