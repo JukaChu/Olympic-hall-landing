@@ -1,0 +1,108 @@
+@import "./variables.css";
+@import "./container.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./modal.css";
+
+body, html {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.h1-line-height {
+    font-size: 55px;
+    line-height: 69px;
+}
+
+.h2-line-height {
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.h3-line-height {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+@media all and (max-width: 920px) {
+    .h1-line-height {
+        font-size: 35px;
+        line-height: 44px;
+    }
+
+    .h2-line-height {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .h2-line-height--mobile {
+        font-size: 35px;
+        line-height: 75px;
+    }
+
+    .h3-line-height {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .control-slider {
+        visibility: visible !important;
+    }
+}
+
+.control-slider {
+    display: flex;
+    visibility: hidden;
+    width: 125px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-slider--button {
+    height: 19px;
+    width: 19px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.control-slider--button:hover {
+    border: 2px solid var(--purple-color);
+}
+
+.slider-left-button {
+    background: url("../image/slider-arrow.svg") no-repeat center;
+var(--white-color);
+    background-size: contain;
+}
+
+.slider-right-button {
+    transform: rotate(180deg);
+    background: url("../image/slider-arrow.svg") no-repeat center;
+var(--white-color);
+    background-size: contain;
+}
+
+.slider-checkbox {
+    width: 8px;
+    height: 8px;
+    background: var(--checkbox-bg);
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.slider-checkbox:hover {
+    border-color: var(--purple-color);
+}
+
+.slider-checkbox--checked {
+    width: 10px;
+    height: 10px;
+    background: var(--checkbox-bg-checked);
+    border: 2px solid var(--checkbox-bg-checked);
+    border-radius: 50%;
+}

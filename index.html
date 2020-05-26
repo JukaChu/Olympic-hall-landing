@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="./src/css/glider.min.css">
+    <script src="./src/js/glider.min.js"></script>
+</head>
+<body>
+<header class="olympic-hall-header">
+    <div class="olympic-hall-header__header-container">
+        <div class="container">
+            <div class="header-container__header-navigation">
+                <a class="header-navigation__main-page-link" href="/" title="Main page"><img
+                        src="./src/image/logo_white.svg" alt="Olympic Hall logo"></a>
+                <nav class="header-navigation__header-list">
+                    <input type="checkbox" id="header-list__toggle-list" class="non-visible">
+                    <label for="header-list__toggle-list" class="toggle-button">
+                        <span class="toggle-list__burger"></span>
+                    </label>
+
+                    <ul class="header-list__points">
+                        <li><a class="header-list__links header-list__links--advantages"
+                               href="#advantages">Преимущества</a></li>
+                        <li><a class="header-list__links header-list__links--prices" href="#prices">Стоимость</a></li>
+                        <li><a class="header-list__links header-list__links--contacts" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger-menu-mobile">
+                        <ul class="header-list__points-mobile">
+                            <li><a class="header-list__links header-list__links--advantages h2-line-height--mobile"
+                                   href="#advantages">Преимущества</a></li>
+                            <li><a class="header-list__links header-list__links--prices h2-line-height--mobile"
+                                   href="#prices">Стоимость</a>
+                            </li>
+                            <li><a class="header-list__links  header-list__links--contacts h2-line-height--mobile"
+                                   href="#contacts">Контакты</a></li>
+                        </ul>
+                        <div class="hamburger-menu-mobile__background">
+                            <img src="./src/image/mobile-figure1.svg" class="hamburger-menu-mobile__background-figure-1"
+                                 alt="">
+                            <img src="./src/image/mobile-figure2.svg" class="hamburger-menu-mobile__background-figure-2"
+                                 alt="">
+                        </div>
+                        <div class="footer-container__contacts-panel-mobile" id="contacts-mobile">
+                            <div class="contacts-panel__contacts-numbers-mobile">
+                                <p class="contacts-numbers__number-mobile">+38 044 303-91-41</p>
+                                <p class="contacts-numbers__number-mobile">+38 068 979-33-71</p>
+                            </div>
+                            <div class="contacts-panel__contacts-socials-mobile">
+                                <a href="" class="contacts-socials__facebook-mobile"><img
+                                        src="./src/image/footer-image/facebook-icon.svg" alt="Facebook"></a>
+                                <a href=""><img src="./src/image/footer-image/viber-icon.svg" alt="Viber"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+                <div class="header-list__button-try-container">
+                    <button class="header-list__button-try open-modal">Попробовать сейчас <img src="./src/image/arrow-right.svg"
+                                                                                    alt="Arrow right"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header-container__service-preview">
+            <h1 class="service-preview__service-title h1-line-height">Сервис прямых трансляций Olympic Hall</h1>
+            <h3 class="service-preview__service-subtitle h3-line-height">Любой стрим под ключ для вас</h3>
+            <button class="service-preview__presentation open-modal" ><span>Посмотреть презентацию</span> <img
+                    src="./src/image/play.svg" alt=""></button>
+            <div class="service-preview__service-functional">
+                <div class="service-functional__single-service-functional"><img src="./src/image/laptop-svg.svg"
+                                                                                alt="laptop image">
+                    <h4 class="single-service-functional__functional-name">Интеграция с мессенджерами</h4>
+                </div>
+                <div class="service-functional__single-service-functional"><img src="./src/image/player-svg.svg"
+                                                                                alt="advertising image">
+                    <h4 class="single-service-functional__functional-name">Интеграция рекламы</h4>
+                </div>
+                <div class="service-functional__single-service-functional"><img src="./src/image/security-svg.svg"
+                                                                                alt="security image">
+                    <h4 class="single-service-functional__functional-name">Безопасный доступ</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="events-type">
+        <img src="./src/image/dots-bg.svg" alt="" class="events-type__dots-background">
+        <div class="container ">
+            <div class="events-type__events-container">
+                <h2 class="events-type__main-title h2-titles h2-line-height">Мы выйдем с вами в эфир быстро и
+                    качественно</h2>
+                <div class="events-type__type-list">
+                    <div class="type-list__global-container">
+                        <div class="type-list__group-type-container">
+                            <div class="type-list__single-event-container"><img
+                                    class="single-event-container__event-picture"
+                                    src="./src/image/events-image/image-11.png"
+                                    alt="Event type image"><span
+                                    class="single-event-container__event-caption">Конференции</span></div>
+                            <div class="type-list__single-event-container"><img
+                                    class="single-event-container__event-picture"
+                                    src="./src/image/events-image/image-13.png"
+                                    alt="Event type image"><span
+                                    class="single-event-container__event-caption">Репортажи</span></div>
+                        </div>
+                        <div class="type-list__group-type-container">
+                            <div class="type-list__single-event-container"><img
+                                    class="single-event-container__event-picture"
+                                    src="./src/image/events-image/image-9.png"
+                                    alt="Event type image"><span
+                                    class="single-event-container__event-caption">Совещания</span></div>
+                            <div class="type-list__single-event-container"><img
+                                    class="single-event-container__event-picture"
+                                    src="./src/image/events-image/image-15.png"
+                                    alt="Event type image"><span
+                                    class="single-event-container__event-caption">Концерты</span></div>
+                        </div>
+                        <div class="type-list__group-type-container">
+
+
+                            <div class="type-list__single-event-container"><img
+                                    class="single-event-container__event-picture"
+                                    src="./src/image/events-image/image-12.png"
+                                    alt="Event type image"><span
+                                    class="single-event-container__event-caption">Брифинги</span></div>
+
+
+                            <div class="type-list__single-event-container"><img
+                                    class="single-event-container__event-picture"
+                                    src="./src/image/events-image/image-16.png"
+                                    alt="Event type image"><span
+                                    class="single-event-container__event-caption">Спортивные события</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-slider">
+                    <button class="control-slider--button slider-left-button slider-type-list-left-button"></button>
+                    <div class="slider-checkbox slider-checkbox--type-list slider-checkbox--checked slide-first-column"></div>
+                    <div class="slider-checkbox slider-checkbox--type-list slide-second-column"></div>
+                    <div class="slider-checkbox slider-checkbox--type-list slide-third-column"></div>
+                    <button class="control-slider--button slider-right-button slider-type-list-right-button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-form">
+        <div class="container">
+            <div class="contact-form__container">
+                <div class="contact-form__background">
+                    <img src="./src/image/contact-us-image-bg/contact-bg-figure2.svg" alt="Background figure">
+                    <img src="./src/image/contact-us-image-bg/contact-bg-figure1.svg" alt="Background figure">
+                </div>
+                <h2 class="contact-form__title h2-line-height">Оставайся в безопасности и совмещай онлайн с другими
+                    важными делами</h2>
+                <form class="form-action" action="" method="post">
+                    <input type="text" name="fio" placeholder="Имя*" class="form-action__input-type-name">
+                    <input type="text" name="email" placeholder="Номер телефона*" class="form-action__input-type-name">
+                    <input type="submit" value="Связаться с нами" class="form-action__input-type-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="advantages" id="advantages">
+        <img src="./src/image/dots-bg.svg" alt="Dots background" class="advantages__background-image">
+        <div class="container">
+            <div class="advantages__advantages-container">
+                <h2 class="advantages-container__title h2-titles h2-line-height">Наши преимущества</h2>
+                <div class="advantages-container__advantages-list">
+                    <div class="advantages-list__global-container">
+                        <div class="advantages-list__group-type-container">
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-1.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption">Количество участников не ограниченно</p>
+                            </div>
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-5.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption">Интеграция банерной рекламы</p>
+                            </div>
+                        </div>
+                        <div class="advantages-list__group-type-container">
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-2.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption">Вещание на любой потоковый сервис</p>
+                            </div>
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-6.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption">Вывод презентации с активными
+                                    участниками</p>
+                            </div>
+                        </div>
+                        <div class="advantages-list__group-type-container">
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-3.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption">Защищенный доступ к контенту</p>
+                            </div>
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-7.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption">Графика и титры в вашем брендстиле</p>
+                            </div>
+                        </div>
+                        <div class="advantages-list__group-type-container">
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-4.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption">Чат между разными потоковыми
+                                    платформами</p>
+                            </div>
+                            <div class="single-advantage">
+                                <div class="advantage-picture__container-image">
+                                    <img class="single-advantage__advantage-picture"
+                                         src="./src/image/advantages-image/advantage-8.svg" alt="Advantage">
+                                </div>
+                                <p class="single-advantage__advantage-caption single-advantage__advantage-caption--gamer">
+                                    Геймерские турниры</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-slider">
+                    <button class="control-slider--button slider-left-button slider-advantages-list-left-button"></button>
+                    <div class="slider-checkbox slider-checkbox--advantages-list slider-checkbox--checked slide-first-column"></div>
+                    <div class="slider-checkbox slider-checkbox--advantages-list slide-second-column"></div>
+                    <div class="slider-checkbox slider-checkbox--advantages-list slide-third-column"></div>
+                    <div class="slider-checkbox slider-checkbox--advantages-list slide-fourth-column"></div>
+                    <button class="control-slider--button slider-right-button slider-advantages-list-right-button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="prices" id="prices">
+        <img src="./src/image/dots-bg.svg" alt="" class="prices__dots-background">
+        <div class="container">
+            <div class="prices__prices-container">
+                <h2 class="prices-container__title h2-titles h2-line-height">Стоимость пакетов услуг</h2>
+                <div class="price-packages-container">
+                    <div class="price-packages-container__global">
+                        <div class="single-price-package__container">
+                            <div class="single-price-package">
+                                <div class="single-price-package__title-container single-price-package__title-container--light-background ">
+                                    <h3 class="title-container__package-title h3-line-height">Минимум</h3>
+                                </div>
+                                <div class="single-price-package__price-type-container">
+                                    <h2 class="price-type-container__package-price h2-line-height">5000</h2>
+                                    <div class="package-type-development">
+                                        <div class="package-type-development__grey-line"></div>
+                                        <div class="package-type-development__title"><p>"Под ключ"</p></div>
+                                    </div>
+                                </div>
+                                <ul class="single-price-package__list">
+                                    <li class="single-price-package__single-service">HD 1080 60l</li>
+                                    <li class="single-price-package__single-service">1 камера</li>
+                                    <li class="single-price-package__single-service">1 инжинер <br>1 оператор</li>
+                                    <li class="single-price-package__single-service">Прием внешней суммы</li>
+                                    <li class="single-price-package__single-service">Без индивидуальной графики</li>
+                                    <li class="single-price-package__single-service">Создан для бюджетных мероприятий
+                                    </li>
+                                </ul>
+                                <button class="single-price-package__connect-package open-modal">Подключить</button>
+                            </div>
+                        </div>
+                        <div class="single-price-package__container">
+                            <div class="single-price-package">
+                                <div class="single-price-package__title-container single-price-package__title-container--medium-background ">
+                                    <h3 class="title-container__package-title h3-line-height">Базовый</h3>
+                                </div>
+                                <div class="single-price-package__price-type-container">
+                                    <h2 class="price-type-container__package-price h2-line-height">10 000</h2>
+                                    <div class="package-type-development">
+                                        <div class="package-type-development__grey-line"></div>
+                                        <div class="package-type-development__title"><p>"Под ключ"</p></div>
+                                    </div>
+                                </div>
+                                <ul class="single-price-package__list">
+                                    <li class="single-price-package__single-service">Full HD 1080 60p</li>
+                                    <li class="single-price-package__single-service">2 камеры</li>
+                                    <li class="single-price-package__single-service">Режисер, 1 инжинер, 1 оператор</li>
+                                    <li class="single-price-package__single-service">1 микрофон</li>
+                                    <li class="single-price-package__single-service">Стандартная эфирная графика</li>
+                                    <li class="single-price-package__single-service">Оптимален для малых мероприятий
+                                    </li>
+                                </ul>
+                                <button class="single-price-package__connect-package open-modal">Подключить</button>
+                            </div>
+                        </div>
+                        <div class="single-price-package__container">
+                            <div class="single-price-package">
+                                <div class="single-price-package__title-container single-price-package__title-container--darker-background ">
+                                    <h3 class="title-container__package-title h3-line-height">оптимальный</h3>
+                                </div>
+                                <div class="single-price-package__price-type-container">
+                                    <h2 class="price-type-container__package-price h2-line-height">15 000</h2>
+                                    <div class="package-type-development">
+                                        <div class="package-type-development__grey-line"></div>
+                                        <div class="package-type-development__title"><p>"Под ключ"</p></div>
+                                    </div>
+                                </div>
+                                <ul class="single-price-package__list">
+                                    <li class="single-price-package__single-service">Full HD 1080 60p</li>
+                                    <li class="single-price-package__single-service">3 камеры</li>
+                                    <li class="single-price-package__single-service">Режисер, 1 инжинер и 2 оператора
+                                    </li>
+                                    <li class="single-price-package__single-service">3 микрофона</li>
+                                    <li class="single-price-package__single-service">Индивидуальная эфирная графика</li>
+                                    <li class="single-price-package__single-service">Подходит для многих мероприятий
+                                    </li>
+                                </ul>
+                                <button class="single-price-package__connect-package open-modal">Подключить</button>
+                            </div>
+                        </div>
+                        <div class="single-price-package__container">
+                            <div class="single-price-package">
+                                <div class="single-price-package__title-container single-price-package__title-container--dark-background ">
+                                    <h3 class="title-container__package-title h3-line-height">Премиальный</h3>
+                                </div>
+                                <div class="single-price-package__price-type-container">
+                                    <h2 class="price-type-container__package-price price-type-container__package-price--premium h2-line-height">
+                                        15 000</h2>
+                                    <div class="package-type-development">
+                                        <div class="package-type-development__grey-line"></div>
+                                        <div class="package-type-development__title"><p>"Под ключ"</p></div>
+                                    </div>
+                                </div>
+                                <ul class="single-price-package__list">
+                                    <li class="single-price-package__single-service">Full HD 1080 60p</li>
+                                    <li class="single-price-package__single-service">3 и более камер</li>
+                                    <li class="single-price-package__single-service">Режисер, 1 инжинер и 2 оператора и
+                                        более...
+                                    </li>
+                                    <li class="single-price-package__single-service">По запросу</li>
+                                    <li class="single-price-package__single-service">Индивидуальная эфирная графика</li>
+                                    <li class="single-price-package__single-service">Интересен для особых мероприятий
+                                    </li>
+                                </ul>
+                                <button class="single-price-package__connect-package open-modal">Подключить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-slider">
+                    <button class="control-slider--button slider-left-button slider-prices-list-left-button"></button>
+                    <div class="slider-checkbox slider-checkbox--prices-list slider-checkbox--checked slide-first-column"></div>
+                    <div class="slider-checkbox slider-checkbox--prices-list slide-second-column"></div>
+                    <div class="slider-checkbox slider-checkbox--prices-list slide-third-column"></div>
+                    <div class="slider-checkbox slider-checkbox--prices-list slide-fourth-column"></div>
+                    <button class="control-slider--button slider-right-button slider-prices-list-right-button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consultation">
+        <div class="container">
+            <div class="contact-form__container">
+                <h2 class="contact-form__title h2-line-height">Бесплатная консультацию</h2>
+                <form class="form-action form-action--consultation" action="" method="post">
+                    <input type="text" name="fio" placeholder="Имя*" class="form-action__input-type-name">
+                    <input type="text" name="email" placeholder="Номер телефона*" class="form-action__input-type-name">
+                    <input type="submit" value="Связаться с нами" class="form-action__input-type-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer-olympic-hall">
+    <div class="container">
+        <div class="footer-olympic-hall__footer-container">
+            <h4 class="footer-container__copyrights">Olympic Hall © 2020 Copyright All Rights Reserved</h4>
+            <div class="footer-container__contacts-panel" id="contacts">
+                <div class="contacts-panel__contacts-numbers">
+                    <p class="contacts-numbers__number">+38 044 303-91-41</p>
+                    <p class="contacts-numbers__number">+38 068 979-33-71</p>
+                </div>
+                <div class="contacts-panel__contacts-socials">
+                    <a href="" class="contacts-socials__facebook"><img src="./src/image/footer-image/facebook-icon.svg"
+                                                                       alt="Facebook"></a>
+                    <a href=""><img src="./src/image/footer-image/viber-icon.svg" alt="Viber"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="olympic-modal-window">
+    <div class="olympic-modal-window__container">
+        <div class="olympic-modal-window__background">
+            <img src="./src/image/modal-bg-left.svg" class="olympic-modal-window__background-figure-1" alt="">
+            <img src="./src/image/modal-bg-right.svg" class="olympic-modal-window__background-figure-2" alt="">
+        </div>
+        <div class="olympic-modal-window__close">
+        </div>
+        <h2 class="olympic-modal-window__title h2-titles h2-line-height">Попробовать сейчас</h2>
+        <form class="form-action-modal form-action--modal" action="" method="post">
+            <input type="text" name="fio" placeholder="Имя*" class=" form-action__input-type-name-modal">
+            <input type="text" name="email" placeholder="Номер телефона*" class=" form-action__input-type-name-modal">
+            <button class="header-list__button-try" type="submit"> Отправить <img src="./src/image/arrow-right.svg"
+                                                                            alt="Arrow right"></button>
+        </form>
+    </div>
+
+</div>
+
+<script>
+    let buttonsModal = [...document.querySelectorAll('.open-modal')];
+    buttonsModal.forEach((btn) => {
+        btn.addEventListener('click', () => {
+            document.querySelector('.olympic-modal-window').style.display = 'block';
+
+        })
+    });
+    document.querySelector('.olympic-modal-window').addEventListener('click', (e)=>{
+        if (e.target.classList.contains('olympic-modal-window')) {
+            document.querySelector('.olympic-modal-window').style.display = 'none';
+        } else if (e.target.classList.contains('olympic-modal-window__close')) {
+            document.querySelector('.olympic-modal-window').style.display = 'none';
+
+        }
+    });
+    let leftParametrTypeList = [0, -312, -624];
+    let leftAdvantagesList = [0, -290, -580, -870];
+    let leftPricesList = [0, -330, -660, -990];
+    let leftForButtonsType = 0;
+    let leftForButtonsAdvantages = 0;
+    let leftForButtonsPrices = 0;
+
+    let controlsButton = [...document.querySelectorAll('.control-slider--button')];
+    let sliderCheckbox = [...document.querySelectorAll('.slider-checkbox')];
+
+    function checkBoxChecked(check, leftStyle, amount, global, parent, leftFor) {
+        let leftTurnType = leftStyle[0];
+        let leftTurnAdvantage = leftStyle[0];
+        let leftTurnPrice = leftStyle[0];
+        if (amount === 3) {
+            if (check.classList.contains('slider-checkbox--checked')) {
+
+            } else {
+                if (check.classList.contains('slide-first-column')) {
+                    leftTurnType = leftStyle[0];
+                    leftForButtonsType = leftStyle[0];
+                    document.querySelector('.slide-first-column').classList.add('slider-checkbox--checked');
+                    document.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    document.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftTurnType + 'px';
+                    return leftFor;
+                } else if (check.classList.contains('slide-second-column')) {
+                    leftTurnType = leftStyle[1];
+                    leftForButtonsType = leftStyle[1];
+                    document.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    document.querySelector('.slide-second-column').classList.add('slider-checkbox--checked');
+                    document.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftTurnType + 'px';
+                    return leftFor;
+
+                } else if (check.classList.contains('slide-third-column')) {
+                    leftTurnType = leftStyle[2];
+                    leftForButtonsType = leftStyle[2];
+                    document.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    document.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    document.querySelector('.slide-third-column').classList.add('slider-checkbox--checked');
+                    global.style.left = leftTurnType + 'px';
+                    return leftFor;
+                }
+            }
+        } else if (amount === 4) {
+            if (check.classList.contains('slider-checkbox--checked')) {
+
+            } else {
+                if (check.classList.contains('slide-first-column')) {
+                    leftTurnAdvantage = leftStyle[0];
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftStyle[0];
+                    } else {
+                        leftForButtonsPrices = leftStyle[0];
+                    }
+                    parent.querySelector('.slide-first-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftTurnAdvantage + 'px';
+                    return leftFor;
+                } else if (check.classList.contains('slide-second-column')) {
+                    leftTurnAdvantage = leftStyle[1];
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftStyle[1];
+                    } else {
+                        leftForButtonsPrices = leftStyle[1];
+                    }
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftTurnAdvantage + 'px';
+                    return leftFor;
+                } else if (check.classList.contains('slide-third-column')) {
+                    leftTurnAdvantage = leftStyle[2];
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftStyle[2];
+                    } else {
+                        leftForButtonsPrices = leftStyle[2];
+                    }
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftTurnAdvantage + 'px';
+                    return leftFor;
+                } else if (check.classList.contains('slide-fourth-column')) {
+                    leftTurnAdvantage = leftStyle[3];
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftStyle[3];
+                    } else {
+                        leftForButtonsPrices = leftStyle[3];
+                    }
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.add('slider-checkbox--checked');
+                    global.style.left = leftTurnAdvantage + 'px';
+                    return leftFor;
+                }
+            }
+        }
+
+    };
+    sliderCheckbox.forEach((check) => {
+        check.addEventListener('click', () => {
+
+            if (check.classList.contains('slider-checkbox--type-list')) {
+                let amount = 3;
+                let global = document.querySelector('.type-list__global-container');
+                let parent = document.querySelector('.events-type__events-container');
+                let leftFor = leftForButtonsType;
+                checkBoxChecked(check, leftParametrTypeList, amount, global, parent, leftFor);
+            } else if (check.classList.contains('slider-checkbox--advantages-list')) {
+                let amount = 4;
+                let global = document.querySelector('.advantages-list__global-container');
+                let parent = document.querySelector('.advantages__advantages-container');
+                let leftFor = leftForButtonsAdvantages;
+                checkBoxChecked(check, leftAdvantagesList, amount, global, parent, leftFor);
+            } else if (check.classList.contains('slider-checkbox--prices-list')) {
+                let amount = 4;
+                let global = document.querySelector('.price-packages-container__global');
+                let parent = document.querySelector('.prices__prices-container');
+                let leftFor = leftForButtonsPrices;
+                checkBoxChecked(check, leftPricesList, amount, global, parent, leftFor);
+            }
+        })
+    });
+
+    function checkControlButton(button, amount, parent, global, leftFor, leftStyle) {
+        if (amount === 3) {
+            if (button.classList.contains('slider-right-button')) {
+                console.log(leftFor);
+                if (leftFor <= leftStyle[2]) {
+                    leftFor = leftStyle[0];
+                    parent.querySelector('.slide-first-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    leftForButtonsType = leftFor;
+                    return leftFor;
+                } else if (leftFor === leftStyle[0]) {
+                    leftFor = leftStyle[1];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    leftForButtonsType = leftFor;
+                    return leftFor;
+                } else if (leftFor === leftStyle[1]) {
+                    leftFor = leftStyle[2];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.add('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    leftForButtonsType = leftFor;
+                    return leftFor;
+                }
+            } else if (button.classList.contains('slider-left-button')) {
+                if (leftFor === leftStyle[0]) {
+                    leftFor = leftStyle[2];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.add('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    leftForButtonsType = leftFor;
+                    return leftFor;
+                } else if (leftFor <= leftStyle[2]) {
+                    leftFor = leftStyle[1];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    leftForButtonsType = leftFor;
+                    return leftFor;
+                } else if (leftFor === leftStyle[1]) {
+                    leftFor = leftStyle[0];
+                    parent.querySelector('.slide-first-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    leftForButtonsType = leftFor;
+                    return leftFor;
+                }
+            }
+        } else if (amount === 4) {
+            if (button.classList.contains('slider-right-button')) {
+                if (leftFor <= leftStyle[3]) {
+                    leftFor = leftStyle[0];
+
+                    parent.querySelector('.slide-first-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                } else if (leftFor === leftStyle[2]) {
+                    leftFor = leftStyle[3];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.add('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                } else if (leftFor === leftStyle[0]) {
+                    leftFor = leftStyle[1];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                } else if (leftFor === leftStyle[1]) {
+                    leftFor = leftStyle[2];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                }
+            } else if (button.classList.contains('slider-left-button')) {
+                if (leftFor <= leftStyle[3]) {
+                    leftFor = leftStyle[2];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                } else if (leftFor === leftStyle[2]) {
+                    leftFor = leftStyle[1];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                } else if (leftFor === leftStyle[0]) {
+                    leftFor = leftStyle[3];
+                    parent.querySelector('.slide-first-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.add('slider-checkbox--checked');
+
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                } else if (leftFor === leftStyle[1]) {
+                    leftFor = leftStyle[0];
+                    parent.querySelector('.slide-first-column').classList.add('slider-checkbox--checked');
+                    parent.querySelector('.slide-second-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-third-column').classList.remove('slider-checkbox--checked');
+                    parent.querySelector('.slide-fourth-column').classList.remove('slider-checkbox--checked');
+                    global.style.left = leftFor + 'px';
+                    if (parent.classList.contains('advantages__advantages-container')) {
+                        leftForButtonsAdvantages = leftFor;
+                    } else {
+                        leftForButtonsPrices = leftFor;
+                    }
+                    return leftFor;
+                }
+            }
+        }
+    }
+
+    controlsButton.forEach((button) => {
+        button.addEventListener('click', () => {
+            if (button.classList.contains('slider-right-button')) {
+                if (button.classList.contains('slider-type-list-right-button')) {
+                    let parent = document.querySelector('.events-type__events-container');
+                    let leftFor = leftForButtonsType;
+                    let amount = 3;
+                    let global = document.querySelector('.type-list__global-container');
+                    checkControlButton(button, amount, parent, global, leftFor, leftParametrTypeList);
+                } else if (button.classList.contains('slider-advantages-list-right-button')) {
+                    let amount = 4;
+                    let global = document.querySelector('.advantages-list__global-container');
+                    let parent = document.querySelector('.advantages__advantages-container');
+                    let leftFor = leftForButtonsAdvantages;
+                    checkControlButton(button, amount, parent, global, leftFor, leftAdvantagesList);
+                } else if (button.classList.contains('slider-prices-list-right-button')) {
+                    let amount = 4;
+                    let global = document.querySelector('.price-packages-container__global');
+                    let parent = document.querySelector('.prices__prices-container');
+                    let leftFor = leftForButtonsPrices;
+                    checkControlButton(button, amount, parent, global, leftFor, leftPricesList);
+                }
+
+            } else if (button.classList.contains('slider-left-button')) {
+                if (button.classList.contains('slider-type-list-left-button')) {
+                    let parent = document.querySelector('.events-type__events-container');
+                    let leftFor = leftForButtonsType;
+                    let amount = 3;
+                    let global = document.querySelector('.type-list__global-container');
+                    checkControlButton(button, amount, parent, global, leftFor, leftParametrTypeList);
+                } else if (button.classList.contains('slider-advantages-list-left-button')) {
+                    let amount = 4;
+                    let global = document.querySelector('.advantages-list__global-container');
+                    let parent = document.querySelector('.advantages__advantages-container');
+                    let leftFor = leftForButtonsAdvantages;
+                    checkControlButton(button, amount, parent, global, leftFor, leftAdvantagesList);
+                } else if (button.classList.contains('slider-prices-list-left-button')) {
+                    let amount = 4;
+                    let global = document.querySelector('.price-packages-container__global');
+                    let parent = document.querySelector('.prices__prices-container');
+                    let leftFor = leftForButtonsPrices;
+                    checkControlButton(button, amount, parent, global, leftFor, leftPricesList);
+                }
+            }
+        })
+    });
+
+
+    window.addEventListener('scroll', function () {
+        if (pageYOffset > 581) {
+            document.querySelector('.olympic-hall-header__header-container').classList.add('olympic-hall-header__header-container--darker');
+            if (window.matchMedia("(max-width: 920px)").matches) {
+                document.querySelector('.header-list__button-try-container').style.display = 'none';
+
+            } else {
+                document.querySelector('.header-list__button-try-container').style.display = 'flex';
+
+            }
+        } else {
+            document.querySelector('.olympic-hall-header__header-container').classList.remove('olympic-hall-header__header-container--darker');
+            document.querySelector('.header-list__button-try-container').style.display = 'flex';
+
+        }
+    });
+    let linkAdvantage = [...document.body.querySelectorAll('.header-list__links--advantages')];
+    let linksHeader = [...document.body.querySelectorAll('.header-list__links')];
+    console.log(linkAdvantage);
+    let linkPrice = [...document.body.querySelectorAll('.header-list__links--prices')];
+    let linkContacts = [...document.body.querySelectorAll('.header-list__links--contacts')];
+    linkAdvantage.forEach((link) => {
+        link.classList.add('header-list__links--focused');
+    });
+    linksHeader.forEach((link) => {
+        link.addEventListener('click', () => {
+            document.getElementById('header-list__toggle-list').checked = false;
+            if (link.classList.contains('header-list__links--advantages')) {
+
+                if (link.classList.contains('header-list__links--focused')) {
+
+                } else {
+
+                    linkContacts.forEach((otherLink) => {
+                        otherLink.classList.remove('header-list__links--focused');
+                    });
+                    linkPrice.forEach((otherLink) => {
+                        otherLink.classList.remove('header-list__links--focused');
+                    });
+                    linkAdvantage.forEach((otherLink) => {
+                        otherLink.classList.add('header-list__links--focused');
+                    });
+                }
+            }
+            if (link.classList.contains('header-list__links--prices')) {
+
+                if (link.classList.contains('header-list__links--focused')) {
+
+                } else {
+
+                    linkAdvantage.forEach((otherLink) => {
+                        otherLink.classList.remove('header-list__links--focused');
+                    });
+                    linkContacts.forEach((otherLink) => {
+                        otherLink.classList.remove('header-list__links--focused');
+                    });
+                    linkPrice.forEach((otherLink) => {
+                        otherLink.classList.add('header-list__links--focused');
+                    });
+                }
+            }
+            if (link.classList.contains('header-list__links--contacts')) {
+
+                if (link.classList.contains('header-list__links--focused')) {
+
+                } else {
+
+                    linkAdvantage.forEach((otherLink) => {
+                        otherLink.classList.remove('header-list__links--focused');
+                    });
+                    linkPrice.forEach((otherLink) => {
+                        otherLink.classList.remove('header-list__links--focused');
+                    });
+                    linkContacts.forEach((otherLink) => {
+                        otherLink.classList.add('header-list__links--focused');
+                    });
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
