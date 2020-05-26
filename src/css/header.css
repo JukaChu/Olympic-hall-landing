@@ -532,6 +532,13 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    transition: 0.3s ease-in-out;
+}
+
+.service-preview__presentation:hover {
+    box-shadow: 0 0 7px 6px rgba(179, 119, 178, 0.4);
+    transition: 0.3s ease-in-out;
+
 }
 
 .service-preview__presentation img {
