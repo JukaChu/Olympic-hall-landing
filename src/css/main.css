@@ -185,6 +185,12 @@
     text-transform: uppercase;
     cursor: pointer;
     color: var(--white-color);
+    transition: 0.3s ease-in-out;
+}
+
+.form-action__input-type-submit:hover {
+    box-shadow: 0 0 7px 6px rgba(252, 175, 51, 0.4);
+    transition: 0.3s ease-in-out;
 }
 
 /*-------------------------*/
