@@ -28,6 +28,9 @@
 
 .olympic-modal-window__background {
     position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .olympic-modal-window__background-figure-1 {

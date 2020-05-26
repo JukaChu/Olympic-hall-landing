@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>Olympic Hall</title>
     <link rel="stylesheet" href="src/css/index.css">
-    <link rel="stylesheet" href="./src/css/glider.min.css">
-    <script src="./src/js/glider.min.js"></script>
 </head>
 <body>
 <header class="olympic-hall-header">
@@ -59,8 +57,9 @@
 
                 </nav>
                 <div class="header-list__button-try-container">
-                    <button class="header-list__button-try open-modal">Попробовать сейчас <img src="./src/image/arrow-right.svg"
-                                                                                    alt="Arrow right"></button>
+                    <button class="header-list__button-try open-modal">Попробовать сейчас <img
+                            src="./src/image/arrow-right.svg"
+                            alt="Arrow right"></button>
                 </div>
             </div>
         </div>
@@ -69,7 +68,7 @@
         <div class="header-container__service-preview">
             <h1 class="service-preview__service-title h1-line-height">Сервис прямых трансляций Olympic Hall</h1>
             <h3 class="service-preview__service-subtitle h3-line-height">Любой стрим под ключ для вас</h3>
-            <button class="service-preview__presentation open-modal" ><span>Посмотреть презентацию</span> <img
+            <button class="service-preview__presentation open-modal"><span>Посмотреть презентацию</span> <img
                     src="./src/image/play.svg" alt=""></button>
             <div class="service-preview__service-functional">
                 <div class="service-functional__single-service-functional"><img src="./src/image/laptop-svg.svg"
@@ -417,7 +416,7 @@
             <input type="text" name="fio" placeholder="Имя*" class=" form-action__input-type-name-modal">
             <input type="text" name="email" placeholder="Номер телефона*" class=" form-action__input-type-name-modal">
             <button class="header-list__button-try" type="submit"> Отправить <img src="./src/image/arrow-right.svg"
-                                                                            alt="Arrow right"></button>
+                                                                                  alt="Arrow right"></button>
         </form>
     </div>
 
@@ -431,7 +430,7 @@
 
         })
     });
-    document.querySelector('.olympic-modal-window').addEventListener('click', (e)=>{
+    document.querySelector('.olympic-modal-window').addEventListener('click', (e) => {
         if (e.target.classList.contains('olympic-modal-window')) {
             document.querySelector('.olympic-modal-window').style.display = 'none';
         } else if (e.target.classList.contains('olympic-modal-window__close')) {
