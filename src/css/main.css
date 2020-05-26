@@ -337,13 +337,13 @@
     border-radius: 8px;
     overflow: hidden;
     justify-content: space-between;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
     box-sizing: border-box;
 }
 
 .single-price-package:hover {
     transform: scale(1.15);
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
     box-shadow: 0 4px 35px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
 }
@@ -355,7 +355,7 @@
 
 .single-price-package:hover .single-price-package__title-container {
     height: 88px;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .single-price-package__title-container {
@@ -364,7 +364,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
 }
 
 .single-price-package__title-container--light-background {
