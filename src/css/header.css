@@ -157,7 +157,6 @@
 
     .header-list__button-try {
         visibility: visible;
-
     }
 
     .header-container__service-preview {
@@ -466,6 +465,8 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    text-align: center;
+    vertical-align: center;
 }
 
 .header-list__button-try img {
