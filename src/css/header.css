@@ -462,7 +462,6 @@
     line-height: 17px;
     text-transform: uppercase;
     color: var(--white-color);
-    display: flex;
     align-content: center;
     justify-content: center;
     text-align: center;
